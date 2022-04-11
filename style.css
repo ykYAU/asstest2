@@ -1,0 +1,62 @@
+
+ 
+body {
+    background-image: url("https://www.onlygfx.com/wp-content/uploads/2015/09/old-paper-texture-4.jpg");
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    
+}
+header{
+        display: inline; /* the default for span */
+        width: 100px;
+        height: 30px;
+        padding: 5px;
+        margin: 0 auto;
+        border: 1px solid blue;
+        background-color: yellow; 
+}
+
+h1{
+    display: inline-block;
+    
+    
+}
+
+h2{
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    border: 1px solid blue;
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    background-color: pink;
+
+}
+.photo {
+    width: 75%;
+    padding: 1.11rem;
+    border-radius: 5px;
+    margin: 0 auto 4.44rem auto;
+    background-color: white;
+    font-family: 'Merriweather' serif;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 100px;
+    background-color: #2196F3;
+        padding: 100px;
+    }
+        .grid-container > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+          }
+    footer li{
+      display: inline-block;  
+    }
